@@ -34,3 +34,12 @@ TRANSFORMERS
 yeh data se sheekne ke baaad new data pe transforamtion krta hai, iske pass .transform and .fit_transform hota hai. 
 It is used for transforming datasets. transformer are designed to pre-process data, which can include tasks suchs as
 scaling, encoding categorical variables, handling missing values, and the feature extraction. 
+
+COLUMN TRANSFORMERS
+Now we can not apply normal transformer on every type of data set right?
+like if i have some text dta like , reviews, social platform , here i cant use transformer to find mean and deviation directly right??
+that is why i need column transforner so i can apply transforamtion based columns. 
+
+Suppose I apply one hot encoding but only works on platform and for review i can apply Bag of words, if colum increase 
+it will get complicated as i am seprating column apply differernt styles on it and then concating oofff.
+to solve this we have column transformer
