@@ -43,3 +43,10 @@ that is why i need column transforner so i can apply transforamtion based column
 Suppose I apply one hot encoding but only works on platform and for review i can apply Bag of words, if colum increase 
 it will get complicated as i am seprating column apply differernt styles on it and then concating oofff.
 to solve this we have column transformer
+
+PCA = Principal Component Analysis
+In simple words: reduce the number of columns (features) while keeping the important information.
+
+FEATURE UNIONS / PIPLELINES
+FEATURES UIONS -    Apply multiple transforamtion parallely on whole dataset
+PIPLELINES     -    Apply multiple transforamtion sequentially on whole dataset
