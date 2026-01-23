@@ -1,0 +1,36 @@
+The Core Idea
+
+Machine learning is just learning patterns from examples, then using those patterns to make guesses about new things.
+Think of it like this: if you've eaten at 20 restaurants and noticed that restaurants with long wait times usually have good food, you've "learned" a pattern. Next time you see a crowded restaurant, you predict the food is probably good.
+That's exactly what ML does, just with math.
+
+Scikit-Learn 
+1. alogorithms
+2. preprocessing (scalling , features, encoding ...)
+3. Metrices (accuracy, f1, mae ...)
+4. model_selection (train test split, cross val score)
+5. Pipelines .....
+
+ESTIMATORS
+object that can learm from data and has a fit method is called estimator.
+e.g - linear regression , decision tree, kmeans, ohe, etc....
+They all have fit method and that fit method is trying to learn something from data.
+
+We can build custom estimator as well
+
+estimators are of two types
+1. predictors - yeh data se sheekne ke baaad new data pe predication deta hai, iske pass ek .predict function hota hai. 
+2. transformer - yeh data se sheekne ke baaad new data pe transforamtion krta hai, iske pass .transform and .fit_transform hota hai. 
+
+predictors are now of two typyes - (regression predication, classification predication (predict [1,6,4,8] , predict_probab [0.12, 0.54, 0.34]))
+
+MIXINS
+mixins classes are auxiliary classes that provide additional methods and  fucntionality to custoom estimators.
+They are dsigned to be used through multiple inhertitance, allowing custom estimatoers to gain standardized capabilities
+such as scoring, fiting, predication, or transforming without need of reimlpemeting these methods from sratch
+
+
+TRANSFORMERS
+yeh data se sheekne ke baaad new data pe transforamtion krta hai, iske pass .transform and .fit_transform hota hai. 
+It is used for transforming datasets. transformer are designed to pre-process data, which can include tasks suchs as
+scaling, encoding categorical variables, handling missing values, and the feature extraction. 
