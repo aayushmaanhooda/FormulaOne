@@ -1,0 +1,5 @@
+FastF1 gives you access to F1 lap timing, car telemetry and position, tyre data, weather data, the event schedule and session results.
+
+FastF1 is built mainly around Pandas DataFrame and Series objects. 
+If you are familiar with Pandas you’ll immediately recognize this and 
+working with the data will be fairly straightforward. 

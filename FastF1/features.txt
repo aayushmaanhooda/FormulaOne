@@ -1,0 +1,45 @@
+FEATURES CATEGORIES
+PREDICT 2025 AUSTRLIA GRAND PRIX
+
+1. DRIVER PERFORMACE FEATURES
+# From session.results and session.laps
+- Average finishing position (last N races)
+- Average qualifying position
+- Points accumulated (season so far)
+- Win rate / podium rate
+- DNF (did not finish) rate
+- Average position gained/lost from grid
+
+
+2. TEAM/CAR PERFORMANCE
+# Car matters a lot in F1
+- Constructor championship position
+- Team's average finishing position
+- Car reliability (DNF rate per team)
+- Power unit manufacturer
+
+3. TRACK-SPECIFIC FEATURES
+# Historical performance at that specific circuit
+- Driver's past results at Albert Park
+- Team's past results at Albert Park
+- Track type (street circuit, high downforce, power circuit)
+
+4. QULALIFYING DATA 
+# From qualifying session
+- Grid position (HUGE predictor)
+- Gap to pole position (seconds)
+- Q1/Q2/Q3 performance
+
+5. PRACTISE SESSION TELEMETRY 
+# From FP1, FP2, FP3
+- Best lap times
+- Long run pace (race simulation)
+- Tire degradation patterns
+- Top speeds
+- Sector times
+
+6. RACE WEEKEND CONDITIONS
+# From session.weather_data
+- Temperature (air/track)
+- Rain probability
+- Wind speed
